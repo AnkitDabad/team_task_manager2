@@ -34,15 +34,50 @@ This project demonstrates full-stack development concepts including frontend-bac
 - Auth: JWT
 
 ## Features
-###Authentication & Authorization
+##Authentication & Authorization
   - User Signup & Login
   - JWT-based Authentication
   - Protected Routes
   - Role-based Access Control
   - Admin & Member Roles
 
-###Project Management
+##Project Management
   - Create Projects
   - Delete Projects
   - View All Team Projects
   - Project-based Task Organization
+
+##Task Management
+  - Create Tasks
+  - Assign Tasks to Team Members
+  - Update Task Status
+  - Delete Tasks
+  - Due Date Tracking
+  - Task Prioritization
+
+##Dashboard & Analytics
+  - Total Tasks Count
+  - Completed Tasks
+  - In Progress Tasks
+  - Overdue Tasks
+  - Real-time Task Statistics
+
+
+## Folder Structure
+
+team-task-manager/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── routes/
+│   ├── middleware/
+│   ├── controllers/
+│   ├── database/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
