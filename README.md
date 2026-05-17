@@ -19,15 +19,30 @@ Due date monitoring
 This project demonstrates full-stack development concepts including frontend-backend integration, authentication, API handling, database management, and deployment.
 
 ## Stack
-- Frontend: React + Vite
-- Backend: Node.js + Express
+- Frontend:
+  - React.js
+  - Vite
+  - React Router DOM
+  - Axios
+  - CSS
+- Backend:
+  - Node.js
+  - Express.js
+  - JWT Authentication
+  - REST API
 - Database: SQLite
 - Auth: JWT
 
 ## Features
-- Signup/Login with JWT auth
-- Admin & Member roles
-- Create/delete projects
-- Create/assign/track tasks with due dates
-- Dashboard with stats (total, done, in-progress, overdue)
-- Status tracking (todo → in_progress → done)
+###Authentication & Authorization
+  - User Signup & Login
+  - JWT-based Authentication
+  - Protected Routes
+  - Role-based Access Control
+  - Admin & Member Roles
+
+###Project Management
+  - Create Projects
+  - Delete Projects
+  - View All Team Projects
+  - Project-based Task Organization
