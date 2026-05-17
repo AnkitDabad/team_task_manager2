@@ -2,9 +2,6 @@
 
 Full-stack web app for managing projects and tasks with role-based access.
 
-## Live URL
-[your-frontend-railway-url]
-
 ## Stack
 - Frontend: React + Vite
 - Backend: Node.js + Express
