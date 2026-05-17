@@ -1,0 +1,37 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.card { background: #1e293b; border-radius: 12px; padding: 24px; margin-bottom: 16px; border: 1px solid #334155; }
+.btn { padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; transition: all 0.2s; }
+.btn-primary { background: #3b82f6; color: white; }
+.btn-primary:hover { background: #2563eb; }
+.btn-danger { background: #ef4444; color: white; }
+.btn-danger:hover { background: #dc2626; }
+.btn-success { background: #10b981; color: white; }
+.input { width: 100%; padding: 10px 14px; background: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #e2e8f0; font-size: 14px; margin-bottom: 12px; }
+.input:focus { outline: none; border-color: #3b82f6; }
+select.input { cursor: pointer; }
+.nav { background: #1e293b; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #334155; }
+.nav h1 { color: #3b82f6; font-size: 20px; }
+.nav-links { display: flex; gap: 12px; align-items: center; }
+.badge { padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.badge-todo { background: #374151; color: #9ca3af; }
+.badge-in_progress { background: #1d4ed8; color: #bfdbfe; }
+.badge-done { background: #065f46; color: #6ee7b7; }
+.badge-overdue { background: #7f1d1d; color: #fca5a5; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.flex { display: flex; }
+.gap-2 { gap: 8px; }
+.mb-4 { margin-bottom: 16px; }
+.mt-2 { margin-top: 8px; }
+h2 { margin-bottom: 16px; color: #f1f5f9; }
+h3 { color: #f1f5f9; margin-bottom: 8px; }
+p { color: #94a3b8; font-size: 14px; }
+label { display: block; margin-bottom: 4px; font-size: 13px; color: #94a3b8; }
+.auth-wrap { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+.auth-box { background: #1e293b; padding: 40px; border-radius: 16px; width: 100%; max-width: 420px; border: 1px solid #334155; }
+.auth-box h2 { text-align: center; margin-bottom: 24px; font-size: 24px; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+.stat-card { background: #1e293b; border-radius: 10px; padding: 20px; text-align: center; border: 1px solid #334155; }
+.stat-card .num { font-size: 32px; font-weight: 700; color: #3b82f6; }
+.stat-card .label { font-size: 13px; color: #64748b; }
